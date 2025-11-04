@@ -23,6 +23,6 @@ package-mode = false
 run = "main:main"
 
 [tool.poetry.dependencies]
-python = ">=3.9"
+python = ">=3.9,<4.0"
 flet = "^0.24.0"  # Para UI responsive y PWA
 requests = "^2.31.0"  # Para mocks de API (simular DB)
